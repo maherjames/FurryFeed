@@ -33,10 +33,13 @@
 <BODY>
 
 <div id="imagepicker" style="display: none" class="imge">
-<img src="http://cdn.taboola.com/static/impl/png/furryfeed.png">
+<img src="http://cdn.taboola.com/static/impl/png/furryfeed4.png">
 </div>
 <div id="imagepicker2" style="display: none" class="imge">
-<img src="http://cdn.taboola.com/static/impl/png/feedseedlogo4.png">
+<img src="http://cdn.taboola.com/static/impl/png/feedseed4.png">
+</div>
+<div id="imagepicker3" style="display: none;" class="imge" >
+<img src="https://i.ibb.co/Gt2s3gT/feedweed4.png">
 </div>
 
 <div id="below-article-thumbnails" class="FS">
@@ -69,6 +72,10 @@ if (window.location.search.indexOf('furryFeedFinder') > -1) {
     document.getElementById('imagepicker').style.display = "none";
     document.getElementById('imagepicker2').style.display = "block";
   }
+ if (window.location.search.indexOf('weed') > -1) {
+ 	document.getElementById('imagepicker3').style.display = "block";
+ 	document.getElementById('imagepicker2').style.display = "none";
+ }
 </script>
 
 </BODY>
